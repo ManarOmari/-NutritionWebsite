@@ -19,6 +19,7 @@ h1 {
     backdrop-filter: grayscale(2);
     
   }
+
   .socialMediaIcons {
     display: none;
   }
@@ -37,7 +38,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: grayscale(2);
-  
   }
 
   .navItem.active {
@@ -47,9 +47,11 @@ h1 {
   .navItem li {
     padding: 2rem;
   }
+
   .navbar-brand {
     display: none;
   }
+
   .humgurger {
     display: block;
     margin-left: 2.5rem;
@@ -89,6 +91,7 @@ h1 {
     font-family: "Lato", sans-serif;
     font-weight: 400;
   }
+
   .secondHeader {
     background-image: url(/assets/images/red-bg.jpg);
     background-repeat: repeat;
@@ -101,6 +104,7 @@ h1 {
     -webkit-font-smoothing: antialiased;
     margin-left: 5.5rem;
   }
+
   #second-p{
     width: 90%;
     max-width: 100%;
@@ -117,10 +121,12 @@ h1 {
     margin-left: 5.5rem;
     margin-top: 20px;
   }
+
   .navItem .active {
     width: 100%;
   }
-  .mainProgram{
+
+  .mainProgram {
    text-align: center;
    background-image: url(/assets/images/mainProgram-bg.jpg);
    background-repeat: no-repeat;
@@ -128,14 +134,17 @@ h1 {
    color: white;
    height: 100%;
   }
-  hr{
+
+  hr {
      width: 80px;
      color: #ec5242;
      background-color: #ec5242;
   }
+
   .mainProgram h3 {
     margin-top: 6rem;
   }
+
   .card {
     width: 93%;
      display: flex;
@@ -146,18 +155,22 @@ h1 {
      margin-left: 2.5rem;
      padding-left: 10px;
   }
-  .card :hover{
+
+  .card :hover {
     border: 3px solid;
   }
-  .card :focus-visible{
+
+  .card :focus-visible {
     border: 3px solid;
   }
+
   .card img {
     height: 10vh;
     width: 11vw;
     padding-top: 1rem;
   }
-  .card-title{
+
+  .card-title {
     color: #ec5242;
     text-align: center;
     font-family: 'COCOGOOSE', sans-serif;
@@ -165,20 +178,20 @@ h1 {
     font-size: 2rem;
     margin-left: 2rem;
     margin-top: 4rem;
-
   }
-  .card-text{
+
+  .card-text {
     font-family: 'Lato', sans-serif;
     margin-left: 2rem;
     margin-top: 1rem;
     text-align: start;
   }
-  #wholeProgram{
+
+  #wholeProgram {
     text-decoration-line: underline;
     color: white;
     font-family: 'Lato' sans-serif;
     font-weight: 400;
     margin-top: 5rem;
-
   }
 }
