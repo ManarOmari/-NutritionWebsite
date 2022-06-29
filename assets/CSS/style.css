@@ -1,0 +1,123 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+.humgurger{
+    display: none;
+}
+h1 {
+    background-color: url('/assets/images/font-bg1.jpg');
+}
+
+@media only screen and (max-width:  768px){
+   *{
+    font-size: 2.5rem;
+    font-family: 'Cocogroose',sans-serif;
+    
+   }
+
+    body {
+        background-image: url('/assets/images/bg1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .socialMediaIcons{
+        display: none;
+    }
+
+    .navItem {
+        position: fixed;
+        left: -100%;
+        width: 100%;
+        gap: 0;
+        background-image: url(/assets/images/bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        color: rgb(51, 47, 47);
+        font-size: 3.6rem;
+        padding: 4rem;
+        text-align: center;
+        
+    }
+
+    .navItem.active {
+        left: 0 ;
+    }
+
+    .navItem li {
+        padding: 2rem;
+    }
+    .navbar-brand{
+        display: none;
+    }
+    .humgurger {
+        display: block;
+        margin-left: 2.5rem;
+        margin-top: 2rem;
+    }
+   
+    .humgurger.active .bar:nth-child(2) {
+       opacity: 0;
+    }
+
+    .humgurger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+     }
+
+     .humgurger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+     }
+
+
+    .humgurger .bar {
+        background-color: rgb(100, 97, 97);
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px ;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    .row p {
+        margin-left: 2.5rem;
+        font-size: 2.6rem;
+    }
+    .secondHeader {
+      background-image: url(/assets/images/abstract-art-green-background-header-4811.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      font-family: 'Cocogoose', 'helvetica neue',
+               helvetica, arial, sans-serif;
+      font-weight: 800;
+      -webkit-font-smoothing: antialiased;
+      margin-left: 2%;
+    }
+
+   .introduction {
+        margin-top: 6rem;
+        color: rgb(1, 70, 1);
+        margin-left: 2.5rem;
+    }
+
+   .introduction p {
+    max-width: 100%;
+    margin-left: 2.5rem;
+
+   }
+   .introduction img{
+    width: 50%;
+    height: 15%;
+    margin-left: 2.5rem;
+   }
+   .navItem .active {
+   width: 100%;
+   }
+  
+}
+
+
+
+
+
+
