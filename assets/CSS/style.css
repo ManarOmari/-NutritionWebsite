@@ -12,12 +12,9 @@ h1 {
     font-family: "COCOGOOSE", sans-serif;
   }
 
-  body {
-    background-image: url(/assets/images/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: grayscale(2);
-    
+  .container-fluid {
+    background-color: #f7f3f3;
+    height: 100%;
   }
 
   .socialMediaIcons {
@@ -103,6 +100,7 @@ h1 {
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
     margin-left: 5.5rem;
+    line-height: 4rem;
   }
 
   #second-p{
