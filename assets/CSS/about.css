@@ -1,7 +1,9 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 .humgurger {
   display: none;
 }
+
 h1 {
   background-color: url("/assets/images/font-bg1.jpg");
 }
@@ -13,10 +15,10 @@ h1 {
   }
 
   .container-fluid {
-   background-color:  #f7f3f3;
-   height: 100%;
-    
+    background-color: #f7f3f3;
+    height: 100%;
   }
+
   .socialMediaIcons {
     display: none;
   }
@@ -32,7 +34,6 @@ h1 {
     padding: 4rem;
     text-align: center;
     background-color: #f7f3f3;
-  
   }
 
   .navItem.active {
@@ -42,9 +43,11 @@ h1 {
   .navItem li {
     padding: 2rem;
   }
+
   .navbar-brand {
     display: none;
   }
+
   .humgurger {
     display: block;
     margin-left: 2.5rem;
@@ -95,7 +98,7 @@ h1 {
     margin-left: 0;
   }
 
-  #second-p{
+  #second-p {
     width: 90%;
     max-width: 100%;
     border: 5px solid #ede7e7;
@@ -107,37 +110,41 @@ h1 {
 
   .introduction .third-p {
     font-size: 2rem;
-    color:#272a31;
+    color: #272a31;
     margin-top: 20rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
   }
 
-  .introduction .third-p span{
+  .introduction .third-p span {
     text-decoration: underline;
   }
 
   .navItem .active {
     width: 100%;
   }
-  
-  hr{
-     width: 80px;
-     color: #ec5242;
-     background-color: #ec5242;
+
+  hr {
+    width: 80px;
+    color: #ec5242;
+    background-color: #ec5242;
   }
+
   .logo {
     text-align: center;
     background-color: white;
   }
-  .logo h2{
-   padding-top:5rem;
-   font-weight: 100;
-   line-height: 5rem;
+
+  .logo h2 {
+    padding-top: 5rem;
+    font-weight: 100;
+    line-height: 5rem;
   }
+
   .logo p {
-    font-family: 'Lato',sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: 200;
   }
+
   .logo img {
     border: 3px solid;
     padding: 4rem;
@@ -145,18 +152,68 @@ h1 {
     margin-top: 4rem;
     width: 80%;
   }
+
   .partner {
     text-align: center;
     margin-top: 0;
     background-color: #484141;
     color: white;
-  }
-  .partner h3{
-   font-family: 'Lato', sans-serif;
-   margin-top: 1rem;
-   padding-top: 4rem;
-    font-size: 4rem;
-    font-weight: 800;
-}
+    padding-bottom: 7rem;
   }
 
+  .partner h3 {
+    font-family: "Lato", sans-serif;
+    margin-top: 1rem;
+    padding-top: 4rem;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+
+  .partner .mozilla {
+    font-family: "Titan One", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+    padding-right: 10rem;
+  }
+
+  .partner .google {
+    font-family: "Lato", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+    padding-right: 10rem;
+  }
+
+  .partner .naver {
+    font-family: "Titan One", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+  }
+
+  .partner .daumkakao {
+    font-family: "Lato", cursive;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+    padding-right: 10rem;
+  }
+
+  .partner .airbnb {
+    font-family: monospace;
+    text-align: left;
+    color: grey;
+    font-size: 4rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 1.7rem;
+    font-family: "Lato", sans-serif;
+    padding-top: 5rem;
+  }
+}
