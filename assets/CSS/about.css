@@ -12,11 +12,9 @@ h1 {
     font-family: "COCOGOOSE", sans-serif;
   }
 
-  body {
-    background-image: url(/assets/images/bg1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: grayscale(2);
+  .container-fluid {
+   background-color:  #f7f3f3;
+   height: 100%;
     
   }
   .socialMediaIcons {
@@ -33,10 +31,7 @@ h1 {
     font-size: 3.6rem;
     padding: 4rem;
     text-align: center;
-    background-image: url('/assets/images/bg1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: grayscale(2);
+    background-color: #f7f3f3;
   
   }
 
@@ -80,105 +75,88 @@ h1 {
 
   .introduction {
     margin-top: 6rem;
+    text-align: center;
   }
 
   .introduction p {
     margin-left: 5.5rem;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: #ec5242;
     font-family: "Lato", sans-serif;
-    font-weight: 400;
+    font-weight: 500;
   }
+
   .secondHeader {
-    background-image: url(/assets/images/red-bg.jpg);
-    background-repeat: repeat;
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 3.8rem;
+    color: #ec5242;
     text-transform: uppercase;
     font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
     font-weight: 800;
-    -webkit-font-smoothing: antialiased;
-    margin-left: 5.5rem;
+    margin-left: 0;
   }
+
   #second-p{
     width: 90%;
     max-width: 100%;
-    border: 5px solid white;
+    border: 5px solid #ede7e7;
     color: #272a31;
     padding: 1rem;
     margin-top: 5rem;
+    background: white;
   }
 
-  .introduction img {
-    width: 89vw;
-    height: 27vh;
-    margin-bottom: 5rem;
-    margin-left: 5.5rem;
-    margin-top: 20px;
+  .introduction .third-p {
+    font-size: 2rem;
+    color:#272a31;
+    margin-top: 20rem;
+    font-family: 'Lato', sans-serif;
   }
+
+  .introduction .third-p span{
+    text-decoration: underline;
+  }
+
   .navItem .active {
     width: 100%;
   }
-  .mainProgram{
-   text-align: center;
-   background-image: url(/assets/images/mainProgram-bg.jpg);
-   background-repeat: no-repeat;
-   background-size: cover;
-   color: white;
-   height: 100%;
-  }
+  
   hr{
      width: 80px;
      color: #ec5242;
      background-color: #ec5242;
   }
-  .mainProgram h3 {
-    margin-top: 6rem;
-  }
-  .card {
-    width: 93%;
-     display: flex;
-     flex-direction: row;
-     margin-top:2rem;
-     backdrop-filter: contrast(0.5);
-     overflow:hidden ;
-     margin-left: 2.5rem;
-     padding-left: 10px;
-  }
-  .card :hover{
-    border: 3px solid;
-  }
-  .card :focus-visible{
-    border: 3px solid;
-  }
-  .card img {
-    height: 10vh;
-    width: 11vw;
-    padding-top: 1rem;
-  }
-  .card-title{
-    color: #ec5242;
+  .logo {
     text-align: center;
-    font-family: 'COCOGOOSE', sans-serif;
-    font-weight: 700;
-    font-size: 2rem;
-    margin-left: 2rem;
+    background-color: white;
+  }
+  .logo h2{
+   padding-top:5rem;
+   font-weight: 100;
+   line-height: 5rem;
+  }
+  .logo p {
+    font-family: 'Lato',sans-serif;
+    font-weight: 200;
+  }
+  .logo img {
+    border: 3px solid;
+    padding: 4rem;
+    margin-bottom: 5rem;
     margin-top: 4rem;
-
+    width: 80%;
   }
-  .card-text{
-    font-family: 'Lato', sans-serif;
-    margin-left: 2rem;
-    margin-top: 1rem;
-    text-align: start;
-  }
-  #wholeProgram{
-    text-decoration-line: underline;
+  .partner {
+    text-align: center;
+    margin-top: 0;
+    background-color: #484141;
     color: white;
-    font-family: 'Lato' sans-serif;
-    font-weight: 400;
-    margin-top: 5rem;
-
+  }
+  .partner h3{
+   font-family: 'Lato', sans-serif;
+   margin-top: 1rem;
+   padding-top: 4rem;
+    font-size: 4rem;
+    font-weight: 800;
+}
   }
 }
