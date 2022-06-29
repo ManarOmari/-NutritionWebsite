@@ -42,6 +42,17 @@ h1 {
 
   .navItem li {
     padding: 2rem;
+    border: 3px solid gainsboro;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .navItem.active li:hover {
+    border: 3px solid red;
+  }
+
+  .navItem.active li a:focus {
+    border: 3px solid green;
   }
 
   .navbar-brand {
