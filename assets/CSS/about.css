@@ -106,7 +106,7 @@ h1 {
     text-transform: uppercase;
     font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
     font-weight: 800;
-    margin-left: 0;
+    line-height: 5rem;
   }
 
   #second-p {
@@ -117,13 +117,23 @@ h1 {
     padding: 1rem;
     margin-top: 5rem;
     background: white;
+    line-height: 3rem;
+    font-size: 2rem;
   }
 
-  .introduction .third-p {
+  .introduction .third-p  {
     font-size: 2rem;
     color: #272a31;
-    margin-top: 20rem;
+    margin-top: 10rem;
     font-family: "Lato", sans-serif;
+    line-height: 3.5rem;
+  }
+
+  .introduction .third-p span a {
+    font-size: 2rem;
+    color: #272a31;
+    font-family: "Lato", sans-serif;
+    display: block;
   }
 
   .introduction .third-p span {
