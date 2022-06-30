@@ -79,6 +79,7 @@ h1 {
 
   .introduction {
     margin-top: 6rem;
+    line-height: 4rem;
   }
 
   .introduction p {
@@ -109,7 +110,10 @@ h1 {
     border: 5px solid white;
     color: #272a31;
     padding: 1rem;
+    font-family: 'Lato', cursive;
     margin-top: 5rem;
+    font-size: 1.7rem;
+    line-height: 3rem;
   }
 
   .introduction img {
@@ -179,10 +183,12 @@ h1 {
   }
 
   .card-text {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', cursive;
     margin-left: 2rem;
     margin-top: 1rem;
     text-align: start;
+    font-size: 1.7rem;
+    line-height: 2.9rem;
   }
 
   #wholeProgram {
