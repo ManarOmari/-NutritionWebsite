@@ -263,6 +263,10 @@ footer {
     padding-right: 1.5rem;
   }
 
+  .navItem li a:visited {
+    color: #ec5242;
+  }
+
   .socialMediaIcons .icon-bar a:hover {
     text-decoration: wavy;
     font-size: larger;
@@ -291,10 +295,6 @@ footer {
     margin-right: 53rem;
   }
 
-  .humgurger {
-    display: none;
-  }
-
   .navbar-header {
     float: left;
     background-color: white;
@@ -317,28 +317,23 @@ footer {
     width: initial;
     height: 22px;
     margin: 0;
-    padding: 0
+    padding: 0;
   }
 
   #navMenu li a { 
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 1rem;
   }
-
-  #navMenuli a:hover {
-    border: 3px solid red;
-    text-decoration: wavy;
-    font-size: larger;
-  }
-
   .navItem.active li a:visited {
     border: 3px solid red;
     background-color: blue;
     font-size: larger;
   }
 
-  .navItem li a:visited {
-    color: #ec5242;
+  #navMenu li a:hover {
+    border: 3px solid red;
+    text-decoration: wavy;
+    font-size: larger;
   }
 
   .navItem.active {
