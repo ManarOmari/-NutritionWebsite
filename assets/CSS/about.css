@@ -320,16 +320,18 @@ footer {
     padding: 0;
   }
 
-  #navMenu li a { 
-    font-family: 'COCOGOOSE', sans-serif;
-    font-size: 1rem;
-  }
   .navItem.active li a:visited {
     border: 3px solid red;
     background-color: blue;
     font-size: larger;
   }
 
+  #navMenu li a {
+
+    font-family: 'COCOGOOSE', sans-serif;
+    font-size: 1rem;
+  }
+ 
   #navMenu li a:hover {
     border: 3px solid red;
     text-decoration: wavy;
@@ -338,6 +340,10 @@ footer {
 
   .navItem.active {
     width: auto;
+  }
+
+  footer p {
+    display: none;
   }
 
   .introduction p {
@@ -377,7 +383,4 @@ footer {
     display: none;
   }
 
-  footer p {
-    display: none;
-  }
 }
