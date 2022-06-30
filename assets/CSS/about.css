@@ -258,13 +258,12 @@ footer p {
   }
 
   .socialMediaIcons .icon-bar a {
-  color: white;
-  font-family: 'COCOGOOSE', cursive;
-  color: white;
-  font-family: 'Lato', cursive;
-  padding-left: 1rem;
-  font-size: 1.5rem;
-  padding-right: 1.5rem;
+    color: white;
+    font-family: 'COCOGOOSE', cursive;
+    font-family: 'Lato', cursive;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .socialMediaIcons .icon-bar a:hover {
@@ -299,7 +298,7 @@ footer p {
     display: none;
   }
 
-.navbar-header {
+  .navbar-header {
     float: left;
     background-color: white;
     margin-top: -2rem;
@@ -317,8 +316,8 @@ footer p {
 
   #navMenu.active li {
     border: none;
-  width: initial;
-  height: 22px;
+    width: initial;
+    height: 22px;
     margin: 0;
     padding: 0
   }
@@ -326,7 +325,6 @@ footer p {
   #navMenu li a { 
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 1rem;
-
   }
 
   #navMenuli a:hover {
@@ -351,7 +349,7 @@ footer p {
 
   .introduction p {
     margin-left: 5.5rem;
-    font-size: 4.0rem;
+    font-size: 4rem;
     color: #ec5242;
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -359,13 +357,13 @@ footer p {
   }
 
   .introduction .secondHeader {
-      color: #ec5242;
-      text-transform: uppercase;
-      font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
-      font-weight: 800;
-      margin-left: 5.5rem;
-      line-height: 6rem;
-      font-size: 5rem;
+    color: #ec5242;
+    text-transform: uppercase;
+    font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
+    font-weight: 800;
+    margin-left: 5.5rem;
+    line-height: 6rem;
+    font-size: 5rem;
   }
 
   #second-p {
