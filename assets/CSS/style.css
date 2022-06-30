@@ -31,10 +31,7 @@ h1 {
     font-size: 3.6rem;
     padding: 4rem;
     text-align: center;
-    background-image: url('/assets/images/bg1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    backdrop-filter: grayscale(2);
+    background-color: #f7f3f3;
   }
 
   .navItem.active {
@@ -43,6 +40,17 @@ h1 {
 
   .navItem li {
     padding: 2rem;
+    border: 3px solid gainsboro;
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+
+  .navItem.active li:hover {
+    border: 3px solid red;
+  }
+
+  .navItem.active li a:focus {
+    border: 3px solid green;
   }
 
   .navbar-brand {
@@ -196,6 +204,14 @@ h1 {
     color: white;
     font-family: 'Lato' sans-serif;
     font-weight: 400;
+    margin-top: 5rem;
+  }
+
+  .sports{
+    text-align: center;
+  }
+
+  .sports h2 {
     margin-top: 5rem;
   }
 }
