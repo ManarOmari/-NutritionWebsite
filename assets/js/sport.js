@@ -36,7 +36,6 @@ const sport = [
 ];
 
 function createCard() {
-
   for (let i = 0; i < sport.length; i += 1) {
     const col = document.createElement('div');
     col.className = 'col-sm-6';
