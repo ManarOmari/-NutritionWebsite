@@ -133,7 +133,7 @@
   text-decoration: underline;
 }
 
-.navItem .active {
+.navItem.active {
   width: 100%;
 }
 
@@ -233,12 +233,6 @@ footer p {
   display: inline-block;
 }
 
-
-
-
-
-
-
 @media only screen and (min-width: 768px) {
   .humgurger {
     display: none;
@@ -282,6 +276,7 @@ footer p {
     text-decoration: wavy;
     font-size: larger;
   }
+
   #navbar {
     display: flex;
     justify-content: space-between;
@@ -317,7 +312,7 @@ footer p {
     margin-top: -16px;;
   }
 
-  #navMenu li{
+  #navMenu.active li{
     border: none;
   width: initial;
   height: 22px;
@@ -330,9 +325,25 @@ footer p {
     font-size: 1rem;
 
   }
+  #navMenuli a:hover{
+    border: 3px solid red;
+    text-decoration: wavy;
+    font-size: larger;
+  }
+
+  .navItem.active li a:visited {
+    border: 3px solid red;
+    background-color: blue;
+    font-size: larger;
+  }
+  .navItem li a:visited {
+    color: #ec5242;
+  }
+
   .navItem.active{
     width: auto;
   }
+
   .introduction p {
     margin-left: 5.5rem;
     font-size: 4.0rem;
