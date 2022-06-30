@@ -33,22 +33,22 @@ const sport = [
     title: 'Superman',
     description: 'Lie on your stomach. The legs are parallel. Stretch out your arms above your head and put them down. ',
   },
-  ];
+];
 
 function createCard() {
 
-    for (let i = 0;i < sport.length;i += 1){
-    let col = document.createElement('div');
+  for (let i = 0; i < sport.length; i += 1) {
+    const col = document.createElement('div');
     col.className = 'col-sm-6';
-    let card = document.createElement('div');
+    const card = document.createElement('div');
     card.className = 'card1';
-    let image = new Image();
+    const image = new Image();
     image.src = sport[i].img;
-    let div2 = document.createElement('div');
+    const div2 = document.createElement('div');
     div2.className = 'card2';
-    let h = document.createElement('h3');
+    const h = document.createElement('h3');
     h.innerHTML = sport[i].title;
-    let desc = document.createElement('p');
+    const desc = document.createElement('p');
     desc.innerHTML = sport[i].description;
     div2.appendChild(h);
     div2.appendChild(desc);
@@ -56,9 +56,9 @@ function createCard() {
     card.appendChild(div2);
     col.appendChild(card);
     row.appendChild(col);
-    }
+  }
 
-    sports.appendChild(row);
-    document.body.appendChild(sports);
+  sports.appendChild(row);
+  document.body.appendChild(sports);
 }
 createCard();
