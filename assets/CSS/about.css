@@ -114,7 +114,7 @@
   font-size: 2rem;
 }
 
-.introduction .third-p  {
+.introduction .third-p {
   font-size: 2rem;
   color: #272a31;
   margin-top: 10rem;
@@ -237,23 +237,26 @@ footer p {
   .humgurger {
     display: none;
   }
+
   * {
     font-size: 2rem;
     font-family: "COCOGOOSE", sans-serif;
   }
-  
+
   .container-fluid {
     background-color: #f7f3f3;
     height: 100%;
   }
-  .socialMediaIcons{
+
+  .socialMediaIcons {
     display: block;
   }
+
   .socialMediaIcons .icon-bar  {
     padding: 1rem;
     margin-right: 7rem;
-    }
-  
+  }
+
   .socialMediaIcons .icon-bar a {
   color: white;
   font-family: 'COCOGOOSE', cursive;
@@ -263,14 +266,14 @@ footer p {
   font-size: 1.5rem;
   padding-right: 1.5rem;
   }
-  
+
   .socialMediaIcons .icon-bar a:hover {
     text-decoration: wavy;
     font-size: larger;
     border: 2px solid darkred;
     background-color: #ec5242;
   }
-  
+
   .socialMediaIcons .icon-bar a:focus {
     border: 3px solid red;
     text-decoration: wavy;
@@ -286,7 +289,7 @@ footer p {
     display: block;
   }
 
-  .navbar-brand img{
+  .navbar-brand img {
     width: 7vw;
     height: 6vh;
     margin-right: 53rem;
@@ -296,7 +299,7 @@ footer p {
     display: none;
   }
 
-.navbar-header  {
+.navbar-header {
     float: left;
     background-color: white;
     margin-top: -2rem;
@@ -312,7 +315,7 @@ footer p {
     margin-top: -16px;;
   }
 
-  #navMenu.active li{
+  #navMenu.active li {
     border: none;
   width: initial;
   height: 22px;
@@ -320,12 +323,13 @@ footer p {
     padding: 0
   }
 
-  #navMenu li a{
+  #navMenu li a { 
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 1rem;
 
   }
-  #navMenuli a:hover{
+
+  #navMenuli a:hover {
     border: 3px solid red;
     text-decoration: wavy;
     font-size: larger;
@@ -336,11 +340,12 @@ footer p {
     background-color: blue;
     font-size: larger;
   }
+
   .navItem li a:visited {
     color: #ec5242;
   }
 
-  .navItem.active{
+  .navItem.active {
     width: auto;
   }
 
@@ -353,7 +358,7 @@ footer p {
     display: none;
   }
 
-   .introduction .secondHeader {
+  .introduction .secondHeader {
       color: #ec5242;
       text-transform: uppercase;
       font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
@@ -361,24 +366,27 @@ footer p {
       margin-left: 5.5rem;
       line-height: 6rem;
       font-size: 5rem;
-}
-#second-p {
-  width: 62%;
-  max-width: 100%;
-  border: 5px solid white;
-  color: #272a31;
-  padding: 1rem;
-  font-family: 'Lato', cursive;
-  margin-top: 5rem;
-  font-size: 2.7rem;
-  line-height: 4rem;
-  display: inline-block;
-  margin-left: 5.5rem;
-}
- footer {
-  display: none;
- }
- footer p {
-  display: none;
- }
+  }
+
+  #second-p {
+    width: 62%;
+    max-width: 100%;
+    border: 5px solid white;
+    color: #272a31;
+    padding: 1rem;
+    font-family: 'Lato', cursive;
+    margin-top: 5rem;
+    font-size: 2.7rem;
+    line-height: 4rem;
+    display: inline-block;
+    margin-left: 5.5rem;
+  }
+
+  footer {
+    display: none;
+  }
+
+  footer p {
+    display: none;
+  }
 }
