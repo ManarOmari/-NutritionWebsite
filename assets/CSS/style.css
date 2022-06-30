@@ -96,7 +96,6 @@
   background-image: url(/assets/images/red-bg.jpg);
   background-repeat: repeat;
   -webkit-background-clip: text;
- /* background-clip: text;*/
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
