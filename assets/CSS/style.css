@@ -1,4 +1,5 @@
 @import url("http://fonts.cdnfonts.com/css/cocogoose");
+
 * {
   font-size: 2rem;
   font-family: "COCOGOOSE", sans-serif;
@@ -55,6 +56,17 @@
   margin-top: 2rem;
 }
 
+
+.humgurger .bar {
+  background-color: #272a31;
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .humgurger.active .bar:nth-child(2) {
   opacity: 0;
 }
@@ -65,16 +77,6 @@
 
 .humgurger.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
-}
-
-.humgurger .bar {
-  background-color: #272a31;
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .introduction {
@@ -94,7 +96,7 @@
   background-image: url(/assets/images/red-bg.jpg);
   background-repeat: repeat;
   -webkit-background-clip: text;
-  background-clip: text;
+ /* background-clip: text;*/
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
