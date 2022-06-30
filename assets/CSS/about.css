@@ -252,7 +252,7 @@ footer p {
     display: block;
   }
 
-  .socialMediaIcons .icon-bar  {
+  .socialMediaIcons .icon-bar {
     padding: 1rem;
     margin-right: 7rem;
   }
@@ -302,16 +302,17 @@ footer p {
     float: left;
     background-color: white;
     margin-top: -2rem;
-}
+  }
+
   #navMenu {
     font-size: 1.5rem;
     font-family: 'Lato', cursive;
     display: flex;
     position: relative;
     left: 0;
-    padding-top: 0rem;
+    padding-top: 0;
     background-color: white;
-    margin-top: -16px;;
+    margin-top: -16px;
   }
 
   #navMenu.active li {
