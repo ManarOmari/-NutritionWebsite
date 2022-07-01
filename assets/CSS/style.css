@@ -104,6 +104,10 @@
   line-height: 4rem;
 }
 
+footer p {
+  display: none;
+}
+
 #second-p {
   width: 90%;
   max-width: 100%;
@@ -212,10 +216,6 @@ hr {
 }
 
 footer {
-  display: none;
-}
-
-footer p {
   display: none;
 }
 
