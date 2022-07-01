@@ -10,10 +10,10 @@
 
 ## Live Demo (if available)
 github repo link 
-https://github.com/ManarOmari/Portoflio/tree/main
+https://github.com/ManarOmari/-NutritionWebsite
 
 online version link 
-https://manaromari.github.io/Portoflio/
+https://manaromari.github.io/-NutritionWebsite/
 
 
 ## Getting Started
@@ -21,7 +21,7 @@ https://manaromari.github.io/Portoflio/
 
 -
 
-+started to buils mobile sketon for a Protoflio template 
++started to buils mobile sketon for a nutirsion template 
 
 +first : header contains a logo and tool bar 
 
