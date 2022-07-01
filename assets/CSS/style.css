@@ -242,7 +242,6 @@ footer p {
   .socialMediaIcons .icon-bar a {
     color: white;
     font-family: "COCOGOOSE", cursive;
-    color: white;
     font-family: "Lato", cursive;
     padding-left: 1rem;
     font-size: 1.5rem;
@@ -293,7 +292,7 @@ footer p {
     display: flex;
     position: relative;
     left: 0;
-    padding-top: 0rem;
+    padding-top: 0;
     background-color: white;
     margin-top: -16px;
   }
@@ -315,6 +314,14 @@ footer p {
     width: auto;
   }
 
+  footer p {
+    font-size: 2.7rem;
+    font-family: "Lato", sans-serif;
+    padding-top: 5rem;
+    text-align: center;
+    display: block;
+  }
+
   .introduction p {
     margin-left: 5.5rem;
     font-size: 4rem;
@@ -327,7 +334,7 @@ footer p {
     background-image: url(/assets/images/red-bg.jpg);
     background-repeat: repeat;
     -webkit-background-clip: text;
-    background-clip: text;
+    background-clip: "";
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;
@@ -414,7 +421,7 @@ footer p {
     display: contents;
     color: #ec5242;
     margin-top: 10rem;
-    font-family: "COCOGOOSE",sans-serif;
+    font-family: "COCOGOOSE", sans-serif;
   }
 
   .card2 p {
@@ -481,14 +488,6 @@ footer p {
   }
 
   footer {
-    text-align: center;
-    display: block;
-  }
-
-  footer p {
-    font-size: 2.7rem;
-    font-family: "Lato", sans-serif;
-    padding-top: 5rem;
     text-align: center;
     display: block;
   }
