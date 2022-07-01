@@ -83,6 +83,10 @@
   line-height: 4rem;
 }
 
+footer p {
+  display: none;
+}
+
 .introduction p {
   margin-left: 5.5rem;
   font-size: 2.5rem;
@@ -102,10 +106,6 @@
   -webkit-font-smoothing: antialiased;
   margin-left: 5.5rem;
   line-height: 4rem;
-}
-
-footer p {
-  display: none;
 }
 
 #second-p {
@@ -334,7 +334,6 @@ footer {
     background-image: url(/assets/images/red-bg.jpg);
     background-repeat: repeat;
     -webkit-background-clip: text;
-    background-clip: "";
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
     font-family: "Cocogoose", "helvetica neue", helvetica, arial, sans-serif;

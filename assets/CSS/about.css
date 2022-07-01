@@ -327,7 +327,6 @@ footer {
   }
 
   #navMenu li a {
-
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 1rem;
   }
@@ -382,5 +381,4 @@ footer {
   footer {
     display: none;
   }
-
 }
